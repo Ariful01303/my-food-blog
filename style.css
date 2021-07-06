@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+
+} body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+    
+} 
+/*This is menu css*/
+
+.menu-top{
+     display: flex;
+     margin-bottom: 50px;
+     background-image: url(./images/shapes/Frame\ 58.jpg);
+}
+.menu{
+    width:80%;
+} 
+.list{
+    text-align: center;
+}
+.list li{
+    display: inline-block;
+}
+.list li a{
+    display: inline-block;
+    color: rgb(212, 132, 11);
+    text-decoration: none;
+    padding: 10px;
+    border-right: 1px solid rgb(240, 240, 237);
+    font-size: 35px;
+ }
+.list li:first-child a{
+    border-left: 1px solid rgb(230, 230, 228);
+}
+.batton a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(246, 240, 250);
+    background: rgb(196, 104, 165);
+    padding: 30px;
+    border-radius: 50px;
+}
+/*This is top content css*/
+.content{
+    display: flex;
+    margin-bottom: 20px;
+}
+.half{
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+    padding: 2px%;
+
+}
+.half img{
+    width: 100%;
+}
+.col-one{
+    color: orange;
+}
+.font{
+    font-size: 60px;
+}
+.half a{
+    text-decoration: none;
+    color: rgb(248, 246, 250);
+    background: linear-gradient(orange,tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}.half p{
+ margin-bottom: 50px;
+}
+/*This is Bloger About css*/ 
+.content-two{
+    display: flex;
+    background-image: url(./images/bg\ img.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+.content-two img{
+   width: 65%;
+   margin-top: 15px;
+  
+}
+.margin{
+    margin-bottom: 20px;
+}
+.recipie{
+    margin-bottom: 30px;
+}
+.ricipilist{
+    display: flex;
+    margin-top: 50px;
+ 
+}
+.three-one{
+     width: 30%;
+     float: left;
+     padding: 10px;
+     margin: 30px;
+     box-shadow: 10px 10px 40px #888888;
+     border-left: 10px solid rgb(255, 165, 0);
+    border-radius: 10px;    
+}
+.three-one img{
+    width:100%
+}
+.three-one p{
+    margin-bottom: 20px;
+}
+.aling{
+    text-align: center;
+}
+.footer{
+   background: #000;
+    color: rgb(248, 248, 248);
+}
+.ancor a{
+    text-decoration: none;
+    color: rgb(248, 246, 250);
+    background: linear-gradient(orange,tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+.end{
+    color: coral;
+}
+
+
+
+
+
+
+
+
